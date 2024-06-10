@@ -28,7 +28,7 @@ def read_assetlinks():
 
 @app.get("/.well-known/apple-app-site-association", response_class=FileResponse)
 def read_apple_site_association():
-    json_path = os.path.join("static", ".well-known", "apple-app-site-association")
+    json_path = os.path.join("static", ".well-known", "apple-app-site-association.json")
     return FileResponse(path=json_path, media_type="application/json")
 
 @app.get("/community")
