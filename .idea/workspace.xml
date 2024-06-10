@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9436c198-e86d-4aa6-aefc-5beb5220782e" name="Changes" comment="update asset link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.well-known/assetlinks.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/.well-known/assetlinks.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717994389401</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update asset link">
+      <option name="closed" value="true" />
+      <created>1717996939574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717996939574</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update asset link">
+      <option name="closed" value="true" />
+      <created>1717997185240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717997185240</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
