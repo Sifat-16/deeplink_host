@@ -1,14 +1,9 @@
-[
-  {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
-    ],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.artistiadesso.artistiadesso",
-      "sha256_cert_fingerprints": [
-        "AA:32:FA:84:23:25:5E:80:C5:54:FD:D7:A1:4D:47:AE:0B:EF:5A:86:DB:3A:4D:3F:65:B9:AF:5D:63:99:38:F0"
-      ]
-    }
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.artistiadesso.artistiadesso",
+    "sha256_cert_fingerprints":
+    ["61:73:DB:B5:DB:D6:53:DB:FA:90:2A:4C:6A:02:82:B6:CE:20:0D:E1:CF:76:06:3B:BB:20:12:7B:9E:0B:1E:21"]
   }
-]
+}]
