@@ -1,0 +1,20 @@
+{
+  "applinks":{
+    "apps":[
+
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "P3524G9UZC.com.artistiadesso.artistiadesso"
+        ],
+        "components":[
+          {
+            "/":"/community/*",
+            "comment":"Matches any URL with a path that starts with /community/."
+          }
+        ]
+      }
+    ]
+  }
+}
