@@ -7,13 +7,10 @@
           "P3524G9UZC.com.artistiadesso.artistiadesso"
         ],
         "paths": [
-          "*"
-        ],
-        "components": [
-          {
-            "/": "/*"
-          }
+          "/community/*",
+          "/courses/*",
         ]
+
       }
     ]
   },
