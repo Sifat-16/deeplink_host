@@ -6,11 +6,11 @@
         "appIDs": [
           "P3524G9UZC.com.artistiadesso.artistiadesso"
         ],
-        "paths": [
-          "/community/",
-          "/courses/",
-        ]
-
+        "components": [
+			{
+				"/": "/community"
+			}
+		]
       }
     ]
   },
