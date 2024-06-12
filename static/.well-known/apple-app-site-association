@@ -8,10 +8,10 @@
         ],
         "components": [
 			{
-				"/": "/community/"
+				"/": "/community/*"
 			},
 			{
-				"/": "/courses/"
+				"/": "/courses/*"
 			}
 		]
       }
