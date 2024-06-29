@@ -1,3 +1,4 @@
+import base64
 import os
 from typing import Union
 from fastapi import FastAPI
@@ -63,9 +64,11 @@ def request_zoom_token(authorization_code=ZOOM_MEETING_AUTHORIZATION_CODE):
         'redirect_uri': ZOOM_MEETING_REDIRECT_URL,
     }
 
+    auth_str = f'{ZOOM_MEETING_CLIENT_ID}:{ZOOM_MEETING_CLIENT_SECRET}'
+    auth_base64 = base64.b64encode(auth_str.encode()).decode('utf-8')
+
     headers = {
-        'Authorization': 'Basic ' + f'{ZOOM_MEETING_CLIENT_ID}:{ZOOM_MEETING_CLIENT_SECRET}'.encode('utf-8').decode(
-            'base64'),
+        'Authorization': 'Basic ' + auth_base64,
         'Content-Type': 'application/x-www-form-urlencoded',
     }
 
@@ -93,9 +96,11 @@ def refresh_zoom_token(refresh_token=None):
         'refresh_token': token,
     }
 
+    auth_str = f'{ZOOM_MEETING_CLIENT_ID}:{ZOOM_MEETING_CLIENT_SECRET}'
+    auth_base64 = base64.b64encode(auth_str.encode()).decode('utf-8')
+
     headers = {
-        'Authorization': 'Basic ' + f'{ZOOM_MEETING_CLIENT_ID}:{ZOOM_MEETING_CLIENT_SECRET}'.encode('utf-8').decode(
-            'base64'),
+        'Authorization': 'Basic ' + auth_base64,
         'Content-Type': 'application/x-www-form-urlencoded',
     }
 
