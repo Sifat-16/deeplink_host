@@ -29,7 +29,7 @@ app.add_middleware(
 # Define a Pydantic model for the request body
 class TokenRequest(BaseModel):
     channel_name: str
-    account: str
+    account: int
 
 
 #app.mount("/.well-known", StaticFiles(directory="static/.well-known"), name="well-known")
@@ -215,7 +215,7 @@ async def enigma_token_generate(request: Request, token_request: TokenRequest):
 
     try:
         # Generate the token using Agora's RtcTokenBuilder
-        token = RtcTokenBuilder.buildTokenWithAccount(
+        token = RtcTokenBuilder.buildTokenWithUid(
             app_id, app_certificate, channel_name, account, 1,
             token_expiration_in_seconds
         )
