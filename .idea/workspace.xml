@@ -4,28 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9436c198-e86d-4aa6-aefc-5beb5220782e" name="Changes" comment="agora token builder -- change to uid">
-      <change afterPath="$PROJECT_DIR$/static/src/AccessToken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/AccessToken2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/ChatTokenBuilder2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/Packer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/RtcTokenBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/RtcTokenBuilder2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/RtmTokenBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/RtmTokenBuilder2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/SignalingToken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/apaas_token_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/education_token_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/fpa_token_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/src/utils.py" afterDir="false" />
+    <list default="true" id="9436c198-e86d-4aa6-aefc-5beb5220782e" name="Changes" comment="agora token builder -- Rtc module insert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/AccessToken.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccessToken.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/AccessToken2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccessToken2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/ChatTokenBuilder2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatTokenBuilder2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/DynamicKey.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicKey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/DynamicKey2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicKey2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/DynamicKey3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicKey3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/DynamicKey4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicKey4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/DynamicKey5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicKey5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/Packer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Packer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/RtcTokenBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/RtcTokenBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/RtcTokenBuilder2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/RtcTokenBuilder2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/RtmTokenBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/RtmTokenBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/RtmTokenBuilder2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/RtmTokenBuilder2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/SignalingToken.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignalingToken.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/apaas_token_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apaas_token_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/education_token_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/education_token_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/fpa_token_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpa_token_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +64,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raptor/PythonProjects/deeplink_host/static&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.DynamicKey.executor": "Run",
+    "Python.RtcTokenBuilder2.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/raptor/PythonProjects/deeplink_host/static"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/.well-known" />
     </key>
   </component>
@@ -266,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729231185698</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="agora token builder -- Rtc module insert">
+      <option name="closed" value="true" />
+      <created>1729253006737</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1729253006737</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,6 +287,7 @@
     <MESSAGE value="zoom auth" />
     <MESSAGE value="agora token builder" />
     <MESSAGE value="agora token builder -- change to uid" />
-    <option name="LAST_COMMIT_MESSAGE" value="agora token builder -- change to uid" />
+    <MESSAGE value="agora token builder -- Rtc module insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="agora token builder -- Rtc module insert" />
   </component>
 </project>

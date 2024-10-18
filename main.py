@@ -1,21 +1,14 @@
-import base64
-import os
-from typing import Union
-
 import uvicorn
-from fastapi import FastAPI
-from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 import os
-import jwt
 import requests
 from datetime import datetime, timedelta
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from urllib.parse import urlencode
 from pydantic import BaseModel
-from static.src.RtcTokenBuilder2 import *
+from src.RtcTokenBuilder2 import *
 
 app = FastAPI()
 
