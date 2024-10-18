@@ -1,3 +1,5 @@
+agora-python-sdk==3.4.2.1
+agora-token-builder==1.0.0
 annotated-types==0.7.0
 anyio==4.4.0
 certifi==2024.6.2
