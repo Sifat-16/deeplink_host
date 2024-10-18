@@ -4,9 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9436c198-e86d-4aa6-aefc-5beb5220782e" name="Changes" comment="agora token builder">
+    <list default="true" id="9436c198-e86d-4aa6-aefc-5beb5220782e" name="Changes" comment="agora token builder -- change to uid">
+      <change afterPath="$PROJECT_DIR$/static/src/AccessToken.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/AccessToken2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/ChatTokenBuilder2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/DynamicKey5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/Packer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/RtcTokenBuilder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/RtcTokenBuilder2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/RtmTokenBuilder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/RtmTokenBuilder2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/SignalingToken.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/apaas_token_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/education_token_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/fpa_token_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/src/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729227353623</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="agora token builder -- change to uid">
+      <option name="closed" value="true" />
+      <created>1729231185697</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1729231185698</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +276,7 @@
     <MESSAGE value="update apple link" />
     <MESSAGE value="zoom auth" />
     <MESSAGE value="agora token builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="agora token builder" />
+    <MESSAGE value="agora token builder -- change to uid" />
+    <option name="LAST_COMMIT_MESSAGE" value="agora token builder -- change to uid" />
   </component>
 </project>

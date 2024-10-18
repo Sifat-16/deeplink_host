@@ -14,8 +14,8 @@ from datetime import datetime, timedelta
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from urllib.parse import urlencode
-from agora_token_builder import RtcTokenBuilder
 from pydantic import BaseModel
+from static.src.RtcTokenBuilder2 import *
 
 app = FastAPI()
 
@@ -210,12 +210,12 @@ async def enigma_token_generate(request: Request, token_request: TokenRequest):
 
     channel_name = token_request.channel_name
     account = token_request.account
-    token_expiration_in_seconds = 3600
+    token_expiration_in_seconds = 36000
     privilege_expiration_in_seconds = 3600
 
     try:
         # Generate the token using Agora's RtcTokenBuilder
-        token = RtcTokenBuilder.buildTokenWithUid(
+        token = RtcTokenBuilder.build_token_with_uid(
             app_id, app_certificate, channel_name, account, 1,
             token_expiration_in_seconds
         )
