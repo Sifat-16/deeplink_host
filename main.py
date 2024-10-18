@@ -217,6 +217,7 @@ async def enigma_token_generate(request: Request, token_request: TokenRequest):
 
     except Exception as e:
         # Handle exceptions and return a 500 error response if token generation fails
+
         raise HTTPException(status_code=500, detail=f"Token generation failed: {str(e)}")
 
 
