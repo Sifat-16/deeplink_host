@@ -209,7 +209,7 @@ async def enigma_token_generate(request: Request, token_request: TokenRequest):
     try:
         # Generate the token using Agora's RtcTokenBuilder
         token = RtcTokenBuilder.build_token_with_uid(
-            app_id, app_certificate, channel_name, account, 1,
+            app_id, app_certificate, channel_name, account, Role_Subscriber,
             token_expiration_in_seconds
         )
         # Return the generated token as a JSON response
